@@ -81,22 +81,39 @@ img
 
 .Footer
 {
-	margin-left: 224px;
-	margin-right: 201px;
 	height: 200px;
 }
-.Box
+.Box1
 {
 	width: 244px;
 	height: 120px;
-	padding-left: 10px;
-	padding-top: 10px;
 	background: white;
 	border: 1px solid black;
+	float: left;
+	margin-right: 25px; 
+	margin-left: 224px; 
+	padding-left: 10px;
+	padding-top: 10px;
 }
-.BoxM
+.Box2
 {
-	margin-right: 0px;
+	width: 244px;
+	height: 120px;
+	background: white;
+	border: 1px solid black;
+	float: left;
+	margin-right: 30px; 
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.Box3{
+	width: 244px;
+	height: 120px;
+	background: white;
+	border: 1px solid black;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 a:visited{
 	color: black;
