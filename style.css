@@ -1,108 +1,102 @@
-.HeaderBox
-{
+body{
+	background: #F2F2F2;
+	margin: auto;
+}
+.Body{
+	width: 860px;
+	height: 775px;
+	margin: auto;
+}
+.HeaderBox{
 	width: 802px;
 	height: 80px;
 	margin: auto;
 }
-body
-{
-	background: #F2F2F2;
-}
-.Header
-{
+.Header{
 	width: 240px;
 	height: 52px;
 	margin: auto;
 	background: white;
 	border-top: 1px solid black
 }
-h3
-{
+h3{
 	text-align: center;
 }
-.ImgBox
-{
+.ImgBox{
 	height:180px; 
-	width:802px;
+	width:860px;
+	margin: auto;
 }
-img
-{
-	margin-left: 223px; 
-}
-.ContentBox1
-{
+.ContentBox1{
 	width: 802px;
 	height: 100px;
+	margin: auto 0 0 0 ;
+	margin-right: auto;
+
 }
-.HeadContent
-{
+.HeadContent{
 	width: 253px;
 	height: 52px;
+	margin: auto 0 10px 0;
 	margin-top: 20px;
-	margin-left: 223px;
 	background: white;
 	padding-left: 15px;
 	border-top: 1px solid black
 }
-.Content1
-{
+.Content1{
 	margin-top: 10px;
 	padding: 10px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-left: 223px;
+	margin: auto 0 0 0;
 	background: white;
 	border: 1px solid black;
 	width: 515px;
 }
-.HeaderBox2
-{
-	margin-left: 224px;
+.HeaderBox2{
+	margin: auto 0 0 0;
 	width: 822px;
 	height: 55px;
 	margin-top: 185px;
 }
-.HeaderContent1
-{
+.HeaderContent1{
+	margin: auto 0 0 0;
+	float: left;
 	width: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	padding-right: 225px; 
-	margin-right: 24px;
 	background: white;
 	border-top: 1px solid black;
-	display: inline-block;
 }
-.HeaderContent2
-{
-	margin-right: 0px;
+.HeaderContent1:nth-child(2){
+	margin-left: 26px;
+	margin-right: 26px;
 }
-
-.Footer
-{
+.Footer{
+	margin: auto;
 	height: 200px;
+	width: 100%;
 }
-.Box1
-{
+.Box1{
 	width: 244px;
 	height: 120px;
 	background: white;
 	border: 1px solid black;
 	float: left;
-	margin-right: 25px; 
-	margin-left: 224px; 
+	margin: auto;	
 	padding-left: 10px;
 	padding-top: 10px;
 }
-.Box2
-{
+.Box2{
 	width: 244px;
 	height: 120px;
 	background: white;
 	border: 1px solid black;
 	float: left;
-	margin-right: 30px; 
+	margin-left: 25px;
+	margin-right: 24px; 
 	padding-left: 10px;
 	padding-top: 10px;
 }
@@ -114,7 +108,11 @@ img
 	float: left;
 	padding-left: 10px;
 	padding-top: 10px;
+	margin: auto;
 }
 a:visited{
 	color: black;
+}
+.DownBox{
+	width: 860px;
 }
